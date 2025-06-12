@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Хоби</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #fff9e6, #fceabb);
+            color: #333;
+            margin: 0;
+        }
+
+        .hobi-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .hobi-image img {
+            max-width: 350px;
+            border-radius: 4px;
+        }
+
+        .hobi-text {
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .hobi-text h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .hobi-text h2 {
+            font-size: 14px;
+            font-weight: normal;
+            color: #666;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .separator {
+            width: 2px;
+            height: 40px;
+            background-color: #333;
+            margin: 20px 0;
+        }
+
+        .hobi-text p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .hobi-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .hobi-gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .hobi-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Биографија</a></li>
+        <li><a href="obrazovanie.html">Образование</a></li>
+        <li><a href="hobi.html">Хоби</a></li>
+        <li><a href="kontakt.html">Контакт</a></li>
+    </ul>
+</nav>
+
+<div class="hobi-wrapper">
+    <div class="hobi-image">
+        <img src="sliki/fotografija.jpg" alt="Хоби слика">
+    </div>
+    <div class="hobi-text">
+        <h1>Фотографирање</h1>
+        <h2>поточно спортска фотографија</h2>
+        <div class="separator"></div>
+        <p>
+            Моето хоби е фотографирање на спорт односно фудбал, кошарка, ракомет, одбојка. Мојот интерес кон фотографија започна спонтано откако ја позајмив камерата на мојот братучед. Сликав прв пат кошарка и ми се допадна како сите играчи беа заинтересирани. Набрзо почнав да сликам и фудбалски и ракометарски натпревари во мојот град. Откако собрав доволно пари успеав да си ја купам и мојата прва камера Cannon 6D. Подолу можете да погледнете неколку мои фотографии.
+        </p>
+    </div>
+</div>
+<div class="hobi-gallery">
+    <img src="sliki/slika1.jpg" alt="Хоби слика 1">
+    <img src="sliki/slika2.jpg" alt="Хоби слика 2">
+    <img src="sliki/slika3.jpg" alt="Хоби слика 3">
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <p class="footer-text">Следете ме на социјалните мрежи</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/filip.mihajloski" target="_blank" class="social-link">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.instagram.com/mihajloski_filip/" target="_blank" class="social-link">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+        <p class="footer-copy">&copy; 2025 Филип Михајлоски. Сите права задржани.</p>
+    </div>
+</footer>
+
+</body>
+</html>

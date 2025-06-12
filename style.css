@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1c1c3c, #3a3a5a);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+.footer {
+    background: linear-gradient(to right, #1c1c3c, #3a3a5a);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-text {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-link {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-link i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.social-link:hover {
+    color: #f39c12;
+}
+
+.footer-copy {
+    font-size: 14px;
+    opacity: 0.8;
+}
